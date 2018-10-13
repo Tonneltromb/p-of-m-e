@@ -1,0 +1,7 @@
+{
+  "name": "pOfME",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
