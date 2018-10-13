@@ -1,0 +1,5 @@
+:root {
+  --app-monster-area-height: calc((var(--app-main-height) - 15vh) / 2);
+  --app-battle-area-height: var(--app-main-height);
+  --app-battle-area-width: var(--app-main-width);
+}

@@ -8,9 +8,19 @@ import { StatusBar } from '@ionic-native/status-bar/ngx';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { WelcomeComponent } from './pages/welcome/welcome.component';
+import { BattleComponent } from './pages/battle-area/battle.component';
+import { SkillComponent } from './components/skill/skill.component';
+import { MonsterComponent } from './components/monster/monster.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [
+      AppComponent,
+      WelcomeComponent,
+      BattleComponent,
+      SkillComponent,
+      MonsterComponent
+  ],
   entryComponents: [],
   imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
   providers: [

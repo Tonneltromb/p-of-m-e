@@ -1,0 +1,17 @@
+<div class="battle-area-wrapper">
+    <div class="battle-area">
+
+        <div class="battle-area__monster-area-wrapper">
+            <div class="battle-area__monster-area"></div>
+        </div>
+
+        <div class="battle-area__player-area-wrapper">
+            <div class="battle-area__player-area">
+              <span class="battle-area__skill-wrapper" *ngFor="let skill of skills">
+                <app-skill [skill]="skill"></app-skill>
+              </span>
+            </div>
+        </div>
+
+    </div>
+</div>

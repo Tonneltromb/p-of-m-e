@@ -1,0 +1,33 @@
+@import '../../../scss/templates';
+@import '../../../scss/mixins';
+
+.battle-area-wrapper {
+  height: var(--app-battle-area-height);
+  width: var(--app-battle-area-width);
+  border: var(--app-main-frame-style);
+}
+
+.battle-area {
+  @extend %fill-all-space;
+}
+
+.battle-area__monster-area-wrapper {
+  width: 100%;
+  height: var(--app-monster-area-height);
+  outline: 1px solid green;
+}
+
+.battle-area__monster-area {
+  @extend %fill-all-space;
+}
+
+.battle-area__player-area-wrapper {
+
+}
+
+.battle-area__player-area {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 5px;
+  padding-right: 5px;
+}
